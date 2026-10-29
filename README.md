@@ -70,43 +70,43 @@ The table below lists the prominent commercial mPOS providers, sorted in descend
 
 Open-source mobile point-of-sale implementations provide transparent foundations for frontend cash registers 📟, offline inventory systems 📦, thermal receipt printing 🖨️, and cryptocurrency rails 🪙.
 
-Repos are sorted in descending order by **GitHub Star Count** ⭐:
+Repos are sorted in descending order by **GitHub Stars_Count** ⭐:
 
 ### 📱 Mobile POS Applications (Flutter & Cross-Platform)
 
-- **[evan361425 / flutter-pos-system](https://github.com/evan361425/flutter-pos-system)** [![GitHub stars](https://img.shields.io/github/stars/evan361425/flutter-pos-system?style=social&color=white)](https://github.com/evan361425/flutter-pos-system/stargazers)  
+- **[evan361425 / flutter-pos-system](https://github.com/evan361425/flutter-pos-system)** [![GitHub_Stars](https://img.shields.io/github/stars/evan361425/flutter-pos-system?style=social&color=white)](https://github.com/evan361425/flutter-pos-system/stargazers)  
   *Open-source Flutter POS system tailored for small restaurants, cafes, and retail shops.* ☕  
   Features table layout planning, order management, cash register drawer reconciliation, offline-first SQLite database, analytics charts, and Bluetooth ESC/POS receipt printing. Privacy-focused architecture with zero forced telemetry.
 
-- **[tcd93 / flutter-pos](https://github.com/tcd93/flutter-pos)** [![GitHub stars](https://img.shields.io/github/stars/tcd93/flutter-pos?style=social&color=white)](https://github.com/tcd93/flutter-pos/stargazers)  
+- **[tcd93 / flutter-pos](https://github.com/tcd93/flutter-pos)** [![GitHub_Stars](https://img.shields.io/github/stars/tcd93/flutter-pos?style=social&color=white)](https://github.com/tcd93/flutter-pos/stargazers)  
   *Cross-platform Flutter mobile POS application engineered specifically for Sunmi Android POS handheld devices.* 📟  
   Demonstrates direct integration with Sunmi onboard thermal printer hardware SDKs, multi-currency support, order splitting, barcode scanning, and fast transaction dispatch.
 
-- **[elrizwiraswara / flutter_pos](https://github.com/elrizwiraswara/flutter_pos)** [![GitHub stars](https://img.shields.io/github/stars/elrizwiraswara/flutter_pos?style=social&color=white)](https://github.com/elrizwiraswara/flutter_pos/stargazers)  
+- **[elrizwiraswara / flutter_pos](https://github.com/elrizwiraswara/flutter_pos)** [![GitHub_Stars](https://img.shields.io/github/stars/elrizwiraswara/flutter_pos?style=social&color=white)](https://github.com/elrizwiraswara/flutter_pos/stargazers)  
   *Clean Architecture and offline-first mobile POS built with Flutter, SQLite, and Firebase Firestore.* 🧱  
   Features automatic two-way catalog synchronization, transaction queueing during network dropouts, and multi-format thermal receipt printing (58mm, 72mm, and 80mm via Bluetooth/USB/Network).
 
-- **[wilsonanyonga / flutter_pos](https://github.com/wilsonanyonga/flutter_pos)** [![GitHub stars](https://img.shields.io/github/stars/wilsonanyonga/flutter_pos?style=social&color=white)](https://github.com/wilsonanyonga/flutter_pos/stargazers)  
+- **[wilsonanyonga / flutter_pos](https://github.com/wilsonanyonga/flutter_pos)** [![GitHub_Stars](https://img.shields.io/github/stars/wilsonanyonga/flutter_pos?style=social&color=white)](https://github.com/wilsonanyonga/flutter_pos/stargazers)  
   *Lightweight Flutter-based retail point-of-sale register application.* 🛍️  
   Provides catalog itemization, tax computation, stock inventory counting, daily ledger balances, and responsive layouts suitable for both compact Android smartphones and tablets.
 
-- **[The-POS / The-POS-Flutter](https://github.com/The-POS/The-POS-Flutter)** [![GitHub stars](https://img.shields.io/github/stars/The-POS/The-POS-Flutter?style=social&color=white)](https://github.com/The-POS/The-POS-Flutter/stargazers)  
+- **[The-POS / The-POS-Flutter](https://github.com/The-POS/The-POS-Flutter)** [![GitHub_Stars](https://img.shields.io/github/stars/The-POS/The-POS-Flutter?style=social&color=white)](https://github.com/The-POS/The-POS-Flutter/stargazers)  
   *Modular enterprise mobile POS frontend written in Flutter.* 🏢  
   Implements layered state management, multi-cashier login with role-based access control (RBAC), multi-store location switching, receipt generation, and payment gateway abstraction.
 
-- **[torchice / Dypos](https://github.com/torchice/Dypos)** [![GitHub stars](https://img.shields.io/github/stars/torchice/Dypos?style=social&color=white)](https://github.com/torchice/Dypos/stargazers)  
+- **[torchice / Dypos](https://github.com/torchice/Dypos)** [![GitHub_Stars](https://img.shields.io/github/stars/torchice/Dypos?style=social&color=white)](https://github.com/torchice/Dypos/stargazers)  
   *Flutter + Firebase point of sale mobile application.* 🔥  
   Includes real-time cloud data storage, customer profile tracking, sales analytics reporting with customizable period views, and rapid product search.
 
-- **[Derida23 / PIXOS-POS-ReactNative](https://github.com/Derida23/PIXOS-POS-ReactNative)** [![GitHub stars](https://img.shields.io/github/stars/Derida23/PIXOS-POS-ReactNative?style=social&color=white)](https://github.com/Derida23/PIXOS-POS-ReactNative/stargazers)  
+- **[Derida23 / PIXOS-POS-ReactNative](https://github.com/Derida23/PIXOS-POS-ReactNative)** [![GitHub_Stars](https://img.shields.io/github/stars/Derida23/PIXOS-POS-ReactNative?style=social&color=white)](https://github.com/Derida23/PIXOS-POS-ReactNative/stargazers)  
   *React Native mobile cashier and product management application.* ⚛️  
   Provides a clean, intuitive UI for order processing, category organization, discount calculations, and cash drawer management across Android and iOS devices.
 
-- **[fachrinfl / easy-sell-flutter-app](https://github.com/fachrinfl/easy-sell-flutter-app)** [![GitHub stars](https://img.shields.io/github/stars/fachrinfl/easy-sell-flutter-app?style=social&color=white)](https://github.com/fachrinfl/easy-sell-flutter-app/stargazers)  
+- **[fachrinfl / easy-sell-flutter-app](https://github.com/fachrinfl/easy-sell-flutter-app)** [![GitHub_Stars](https://img.shields.io/github/stars/fachrinfl/easy-sell-flutter-app?style=social&color=white)](https://github.com/fachrinfl/easy-sell-flutter-app/stargazers)  
   *Full-featured Flutter retail POS application with Firebase backend and local Hive caching.* 🍯  
   Features Riverpod state management, Freezed models, clean separation of presentation/domain/data layers, and transaction ledger exporting.
 
-- **[Buddhima-JD3 / flutter-pos-system](https://github.com/Buddhima-JD3/flutter-pos-system)** [![GitHub stars](https://img.shields.io/github/stars/Buddhima-JD3/flutter-pos-system?style=social&color=white)](https://github.com/Buddhima-JD3/flutter-pos-system/stargazers)  
+- **[Buddhima-JD3 / flutter-pos-system](https://github.com/Buddhima-JD3/flutter-pos-system)** [![GitHub_Stars](https://img.shields.io/github/stars/Buddhima-JD3/flutter-pos-system?style=social&color=white)](https://github.com/Buddhima-JD3/flutter-pos-system/stargazers)  
   *Offline-first Flutter point-of-sale mobile app for retail micro-merchants.* 🏬  
   Includes inventory tracking, sales charts, customer contact directory, and direct Bluetooth ESC/POS printer pairing without requiring cloud servers.
 
@@ -114,15 +114,15 @@ Repos are sorted in descending order by **GitHub Star Count** ⭐:
 
 ### ⚡ Decentralized & Crypto-Native mPOS
 
-- **[cashubtc / Numo](https://github.com/cashubtc/Numo)** [![GitHub stars](https://img.shields.io/github/stars/cashubtc/Numo?style=social&color=white)](https://github.com/cashubtc/Numo/stargazers)  
+- **[cashubtc / Numo](https://github.com/cashubtc/Numo)** [![GitHub_Stars](https://img.shields.io/github/stars/cashubtc/Numo?style=social&color=white)](https://github.com/cashubtc/Numo/stargazers)  
   *Free, open-source Android app turning any NFC-enabled phone into a Bitcoin tap-to-pay terminal using the Cashu ecash protocol.* ⚡  
   Settles in seconds without platform fees; fully compatible with Cashu and Lightning wallets. Features inventory management, tipping, offline ecash collection, and automatic sweep to a Bitcoin Lightning address.
 
-- **[Monero-Merchant / monero-merchant](https://github.com/Monero-Merchant/monero-merchant)** [![GitHub stars](https://img.shields.io/github/stars/Monero-Merchant/monero-merchant?style=social&color=white)](https://github.com/Monero-Merchant/monero-merchant/stargazers)  
+- **[Monero-Merchant / monero-merchant](https://github.com/Monero-Merchant/monero-merchant)** [![GitHub_Stars](https://img.shields.io/github/stars/Monero-Merchant/monero-merchant?style=social&color=white)](https://github.com/Monero-Merchant/monero-merchant/stargazers)  
   *Self-hosted, trustless Android point-of-sale application for accepting Monero (XMR) payments.* 🔒  
   Directly interfaces with a self-hosted `monerod` daemon and MoneroPay. Features QR and NFC invoice generation, 0-confirmation instant detection (5–10 seconds), and Bluetooth thermal receipt printing.
 
-- **[Kasway-Tech / pos](https://github.com/Kasway-Tech/pos)** [![GitHub stars](https://img.shields.io/github/stars/Kasway-Tech/pos?style=social&color=white)](https://github.com/Kasway-Tech/pos/stargazers)  
+- **[Kasway-Tech / pos](https://github.com/Kasway-Tech/pos)** [![GitHub_Stars](https://img.shields.io/github/stars/Kasway-Tech/pos?style=social&color=white)](https://github.com/Kasway-Tech/pos/stargazers)  
   *Flutter-based POS application accepting Kaspa (KAS) peer-to-peer cryptocurrency payments.* 🪙  
   Supports 26 fiat currencies with live rate conversion, local SQLite product database, table layout editor, and external customer-facing display mirroring.
 
@@ -130,11 +130,11 @@ Repos are sorted in descending order by **GitHub Star Count** ⭐:
 
 ### 🌐 Web-Based & PWA Mobile POS
 
-- **[tomasvergaraj / minimarket-pos](https://github.com/tomasvergaraj/minimarket-pos)** [![GitHub stars](https://img.shields.io/github/stars/tomasvergaraj/minimarket-pos?style=social&color=white)](https://github.com/tomasvergaraj/minimarket-pos/stargazers)  
+- **[tomasvergaraj / minimarket-pos](https://github.com/tomasvergaraj/minimarket-pos)** [![GitHub_Stars](https://img.shields.io/github/stars/tomasvergaraj/minimarket-pos?style=social&color=white)](https://github.com/tomasvergaraj/minimarket-pos/stargazers)  
   *Progressive Web App (PWA) mobile POS built with FastAPI, PostgreSQL, and offline Service Workers.* 🌍  
   Installable directly from mobile web browsers on iOS and Android devices; enables offline checkout, stock replenishment, and multi-user cashier management.
 
-- **[mazkev / react-native-pos-cashier](https://github.com/mazkev/react-native-pos-cashier)** [![GitHub stars](https://img.shields.io/github/stars/mazkev/react-native-pos-cashier?style=social&color=white)](https://github.com/mazkev/react-native-pos-cashier/stargazers)  
+- **[mazkev / react-native-pos-cashier](https://github.com/mazkev/react-native-pos-cashier)** [![GitHub_Stars](https://img.shields.io/github/stars/mazkev/react-native-pos-cashier?style=social&color=white)](https://github.com/mazkev/react-native-pos-cashier/stargazers)  
   *React Native (Expo) mobile POS backed by Google Sheets via Apps Script.* 📊  
   Lightweight mobile register featuring employee PIN authentication, cash drawer shift audits, customer loyalty points, and sales history logging without maintaining a dedicated web server.
 
@@ -142,11 +142,11 @@ Repos are sorted in descending order by **GitHub Star Count** ⭐:
 
 ### 🧰 Terminal Developer SDKs & Production Kits
 
-- **[Adyen POS Mobile SDK (Android / iOS)](https://github.com/Adyen/adyen-pos-mobile-android)** [![GitHub stars](https://img.shields.io/github/stars/Adyen/adyen-pos-mobile-android?style=social&color=white)](https://github.com/Adyen/adyen-pos-mobile-android/stargazers)  
+- **[Adyen POS Mobile SDK (Android / iOS)](https://github.com/Adyen/adyen-pos-mobile-android)** [![GitHub_Stars](https://img.shields.io/github/stars/Adyen/adyen-pos-mobile-android?style=social&color=white)](https://github.com/Adyen/adyen-pos-mobile-android/stargazers)  
   *Official mobile SDK for building Tap to Pay and card reader integrations on Android and iOS.* 📱  
   Enables developers to embed PCI CPoC / MPoC certified contactless card reading directly inside custom native mobile applications.
 
-- **[ESC/POS Thermal Printer Toolkits (Flutter & React Native)](https://github.com/wwandreww/esc_pos_printer)** [![GitHub stars](https://img.shields.io/github/stars/wwandreww/esc_pos_printer?style=social&color=white)](https://github.com/wwandreww/esc_pos_printer/stargazers)  
+- **[ESC/POS Thermal Printer Toolkits (Flutter & React Native)](https://github.com/wwandreww/esc_pos_printer)** [![GitHub_Stars](https://img.shields.io/github/stars/wwandreww/esc_pos_printer?style=social&color=white)](https://github.com/wwandreww/esc_pos_printer/stargazers)  
   *Industry-standard open-source driver suites for formatting and transmitting receipt tickets to Bluetooth, Wi-Fi, and USB thermal printers.* 🖨️  
   Powers the receipt printing sub-system for the vast majority of mobile and handheld POS systems.
 
@@ -173,7 +173,7 @@ We welcome contributions from payment engineers, mobile developers, and retail o
 3. **Add or update an entry** following our standard markdown format:
    - Platform name with official link 🔗
    - Precise pricing & free tier specifications 🏷️
-   - GitHub stars badge linked to stargazers (for open-source projects) ⭐
+   - GitHub_Stars_Badge linked to stargazers (for open-source projects) ⭐
    - 1–2 concise sentences detailing technical capabilities and architecture 📝
 4. **Submit a Pull Request** with a brief summary of the addition 🚀.
 
@@ -213,3 +213,12 @@ If you found this curated mPOS guide and reference list useful, please consider 
   <b>Built with ❤️ for retail operators, restaurant technologists, mobile developers, and payment system engineers.</b><br />
   Star ⭐ this repository if you find it helpful for your mPOS and payment evaluation workflow!
 </p>
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Mobile-Point-Of-Sale-MPOS&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Mobile-Point-Of-Sale-MPOS_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Mobile-Point-Of-Sale-MPOS_growth.svg">
+  </picture>
+</a>
