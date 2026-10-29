@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/mpos-banner.svg" alt="Awesome Mobile Point of Sale (mPOS) Ecosystem Banner" width="100%" />
+  <img src="./assets/banner.svg" alt="Awesome Mobile Point of Sale (mPOS) Ecosystem Banner" width="100%" />
 </p>
 
 # Awesome Mobile Point of Sale (mPOS) 💳📱

@@ -207,7 +207,7 @@
   <g transform="translate(70, 275)">
     <text x="0" y="16" fill="#64748b" font-size="13" font-weight="500">
       ⚡ Market Size: <tspan fill="#38bdf8" font-weight="600">$40B+ expanding to $100B+ by 2032</tspan>
-      &nbsp;&nbsp;•&nbsp;&nbsp;
+      &#160;&#160;•&#160;&#160;
       PCI PTS &amp; EMV Level 1/2/3 Certified Frameworks
     </text>
   </g>
