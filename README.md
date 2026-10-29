@@ -70,7 +70,7 @@ The table below lists the prominent commercial mPOS providers, sorted in descend
 
 Open-source mobile point-of-sale implementations provide transparent foundations for frontend cash registers 📟, offline inventory systems 📦, thermal receipt printing 🖨️, and cryptocurrency rails 🪙.
 
-Repos are sorted in descending order by **GitHub Stars_Count** ⭐:
+Repos are sorted in descending order by **GitHub_Stars_Count** ⭐:
 
 ### 📱 Mobile POS Applications (Flutter & Cross-Platform)
 
