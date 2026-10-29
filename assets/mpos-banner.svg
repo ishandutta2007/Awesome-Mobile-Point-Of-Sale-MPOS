@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340" style="background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #0a0e17 100%); border-radius: 14px; overflow: hidden; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.08)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="pulseGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .bg-wave {
+        animation: waveFlow 12s ease-in-out infinite alternate;
+      }
+      .pulse-circle {
+        animation: pulseScale 3.5s ease-in-out infinite alternate;
+      }
+      .ping-wave {
+        animation: pingRing 3s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+        transform-origin: 1040px 170px;
+      }
+      .nfc-wave-1 {
+        animation: nfcPulse 2.4s ease-out infinite;
+      }
+      .nfc-wave-2 {
+        animation: nfcPulse 2.4s ease-out infinite 0.6s;
+      }
+      .nfc-wave-3 {
+        animation: nfcPulse 2.4s ease-out infinite 1.2s;
+      }
+      .terminal-float {
+        animation: floatTerminal 5s ease-in-out infinite alternate;
+      }
+      .chip-glow {
+        animation: chipFlash 2s ease-in-out infinite alternate;
+      }
+      .tag-float {
+        animation: floatTag 4s ease-in-out infinite alternate;
+      }
+      .grid-dot {
+        opacity: 0.18;
+      }
+
+      @keyframes waveFlow {
+        0% { transform: translateY(0px) scaleY(1); }
+        50% { transform: translateY(-12px) scaleY(1.05); }
+        100% { transform: translateY(8px) scaleY(0.96); }
+      }
+      @keyframes pulseScale {
+        0% { r: 160px; opacity: 0.12; }
+        50% { r: 210px; opacity: 0.22; }
+        100% { r: 160px; opacity: 0.12; }
+      }
+      @keyframes pingRing {
+        0% { r: 35px; opacity: 0.8; stroke-width: 3px; }
+        80% { r: 105px; opacity: 0; stroke-width: 1px; }
+        100% { r: 110px; opacity: 0; stroke-width: 0px; }
+      }
+      @keyframes nfcPulse {
+        0% { opacity: 0.2; stroke-width: 2.5; }
+        50% { opacity: 0.9; stroke-width: 3.5; stroke: #38bdf8; }
+        100% { opacity: 0.2; stroke-width: 2.5; }
+      }
+      @keyframes floatTerminal {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-8px); }
+      }
+      @keyframes chipFlash {
+        0% { filter: drop-shadow(0 0 2px #f59e0b); }
+        100% { filter: drop-shadow(0 0 10px #fbbf24); }
+      }
+      @keyframes floatTag {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-5px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Ambient Dynamic Background Elements (Strictly Backstage) -->
+  <g opacity="0.4">
+    <circle cx="1040" cy="170" r="180" fill="url(#primaryGrad)" class="pulse-circle" />
+    <circle cx="150" cy="80" r="140" fill="#6366f1" opacity="0.08" />
+    <circle cx="550" cy="310" r="170" fill="#0284c7" opacity="0.08" />
+  </g>
+
+  <!-- Animated Ambient Grid Pattern -->
+  <g class="grid-dot" fill="#94a3b8">
+    <circle cx="60" cy="40" r="1.5" /><circle cx="120" cy="40" r="1.5" /><circle cx="180" cy="40" r="1.5" /><circle cx="240" cy="40" r="1.5" />
+    <circle cx="60" cy="90" r="1.5" /><circle cx="120" cy="90" r="1.5" /><circle cx="180" cy="90" r="1.5" /><circle cx="240" cy="90" r="1.5" />
+    <circle cx="60" cy="140" r="1.5" /><circle cx="120" cy="140" r="1.5" /><circle cx="180" cy="140" r="1.5" /><circle cx="240" cy="140" r="1.5" />
+    <circle cx="60" cy="190" r="1.5" /><circle cx="120" cy="190" r="1.5" /><circle cx="180" cy="190" r="1.5" /><circle cx="240" cy="190" r="1.5" />
+    <circle cx="60" cy="240" r="1.5" /><circle cx="120" cy="240" r="1.5" /><circle cx="180" cy="240" r="1.5" /><circle cx="240" cy="240" r="1.5" />
+    <circle cx="60" cy="290" r="1.5" /><circle cx="120" cy="290" r="1.5" /><circle cx="180" cy="290" r="1.5" /><circle cx="240" cy="290" r="1.5" />
+  </g>
+
+  <!-- Flow Wave across background -->
+  <path class="bg-wave" d="M -50,280 Q 250,210 550,270 T 1250,220" fill="none" stroke="url(#primaryGrad)" stroke-width="2.5" opacity="0.25" />
+  <path class="bg-wave" d="M -50,300 Q 280,240 600,295 T 1250,250" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.18" style="animation-delay: -3s;" />
+
+  <!-- Animated Radar / Ping Wave from Terminal Right Side -->
+  <circle cx="1040" cy="170" class="ping-wave" fill="none" stroke="#38bdf8" />
+
+  <!-- Right Visual: Stylized Interactive mPOS Handheld Smart Terminal -->
+  <g class="terminal-float" transform="translate(930, 48)">
+    <!-- Terminal Outer Body (Shadow & Border) -->
+    <rect x="0" y="0" width="180" height="245" rx="26" fill="#1e293b" stroke="#334155" stroke-width="3" filter="drop-shadow(0 15px 25px rgba(0,0,0,0.6))" />
+    
+    <!-- Screen Bezel / Glass -->
+    <rect x="14" y="16" width="152" height="213" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="1.5" />
+
+    <!-- Terminal Status Header -->
+    <circle cx="28" cy="30" r="4" fill="#10b981" />
+    <text x="38" y="33" fill="#64748b" font-size="9" font-weight="600">4G • WI-FI • EMV</text>
+    <rect x="136" y="27" width="18" height="8" rx="2" fill="none" stroke="#64748b" stroke-width="1" />
+    <rect x="138" y="29" width="11" height="4" rx="1" fill="#10b981" />
+
+    <!-- Dynamic NFC Waves at Top Screen -->
+    <path class="nfc-wave-1" d="M 82 52 A 12 12 0 0 1 98 52" fill="none" stroke="#64748b" stroke-linecap="round" />
+    <path class="nfc-wave-2" d="M 76 46 A 20 20 0 0 1 104 46" fill="none" stroke="#64748b" stroke-linecap="round" />
+    <path class="nfc-wave-3" d="M 70 40 A 28 28 0 0 1 110 40" fill="none" stroke="#64748b" stroke-linecap="round" />
+
+    <!-- Terminal Screen Content (Transaction Amount & Card) -->
+    <text x="90" y="88" fill="#94a3b8" font-size="11" text-anchor="middle" font-weight="500">Tap / Insert to Pay</text>
+    <text x="90" y="118" fill="#f8fafc" font-size="22" font-weight="700" text-anchor="middle">$48.50</text>
+
+    <!-- Stylized Contactless Card Graphic -->
+    <g transform="translate(24, 134)">
+      <rect x="0" y="0" width="132" height="74" rx="8" fill="url(#cardGrad)" stroke="#475569" stroke-width="1.2" />
+      <rect class="chip-glow" x="14" y="24" width="22" height="18" rx="3" fill="#f59e0b" />
+      <circle cx="106" cy="24" r="7" fill="#ef4444" opacity="0.85" />
+      <circle cx="116" cy="24" r="7" fill="#f59e0b" opacity="0.85" />
+      <text x="14" y="60" fill="#cbd5e1" font-size="9" letter-spacing="2">•••• 8824</text>
+    </g>
+
+    <!-- Bottom Magnetic Stripe Reader Slot Accent -->
+    <rect x="45" y="238" width="90" height="3" rx="1.5" fill="#475569" opacity="0.7" />
+  </g>
+
+  <!-- Left / Center Foreground Content (Clean, High-Contrast, Always in Foreground) -->
+  
+  <!-- Topic Badge / Pill -->
+  <g class="tag-float" transform="translate(70, 48)">
+    <rect x="0" y="0" width="220" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.95" />
+    <circle cx="14" cy="14" r="5" fill="#38bdf8" />
+    <text x="28" y="18" fill="#e0f2fe" font-size="12" font-weight="600" letter-spacing="0.5">CURATED AWESOME ECOSYSTEM</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="70" y="128" fill="#ffffff" font-size="40" font-weight="800" letter-spacing="-0.8">
+    Mobile Point of Sale <tspan fill="url(#primaryGrad)">(mPOS)</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="70" y="165" fill="#94a3b8" font-size="16" font-weight="400" letter-spacing="0.2">
+    Handheld Smart Terminals • Tap-to-Pay • Cross-Platform Apps • Open Hardware &amp; Crypto POS
+  </text>
+
+  <!-- Feature Pills / Highlights -->
+  <g transform="translate(70, 205)">
+    <!-- Pill 1: SaaS Leaders -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="158" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="18" cy="17" r="4" fill="#38bdf8" />
+      <text x="32" y="22" fill="#cbd5e1" font-size="12.5" font-weight="600">Enterprise SaaS</text>
+    </g>
+
+    <!-- Pill 2: Open Source -->
+    <g transform="translate(170, 0)">
+      <rect x="0" y="0" width="168" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="18" cy="17" r="4" fill="#10b981" />
+      <text x="32" y="22" fill="#cbd5e1" font-size="12.5" font-weight="600">Open-Source Apps</text>
+    </g>
+
+    <!-- Pill 3: Android Smart Terminals -->
+    <g transform="translate(350, 0)">
+      <rect x="0" y="0" width="180" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="18" cy="17" r="4" fill="#a855f7" />
+      <text x="32" y="22" fill="#cbd5e1" font-size="12.5" font-weight="600">Smart EMV Terminals</text>
+    </g>
+
+    <!-- Pill 4: Crypto & Offline -->
+    <g transform="translate(542, 0)">
+      <rect x="0" y="0" width="170" height="34" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <circle cx="18" cy="17" r="4" fill="#f59e0b" />
+      <text x="32" y="22" fill="#cbd5e1" font-size="12.5" font-weight="600">Crypto &amp; Offline Sync</text>
+    </g>
+  </g>
+
+  <!-- Bottom Metadata / Stats Line -->
+  <g transform="translate(70, 275)">
+    <text x="0" y="16" fill="#64748b" font-size="13" font-weight="500">
+      ⚡ Market Size: <tspan fill="#38bdf8" font-weight="600">$40B+ expanding to $100B+ by 2032</tspan>
+      &nbsp;&nbsp;•&nbsp;&nbsp;
+      PCI PTS &amp; EMV Level 1/2/3 Certified Frameworks
+    </text>
+  </g>
+</svg>
